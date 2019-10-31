@@ -169,7 +169,7 @@ hr {
           <li><a href="#about">About Us</a></li>
           <li><a href="#company">Companies</a></li>  
           <li class="menu-has-children"><a href="">Account</a>
-            <ul>
+            <ul>l
               <li><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></li><br>
               <li><button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign Up</button></li>
             </ul>
@@ -356,6 +356,11 @@ hr {
               Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
               <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
             </p>
+  <div class="testimonial-item">
+            <img src="img/aishwarya.jpg" class="testimonial-img" alt="">
+            <h3>Aishwarya Joshi</h3>
+            <h4>Entrepreneur</h4>
+            <p>
           </div>-->
 
         </div>
@@ -460,6 +465,16 @@ window.onclick = function(event) {
         <button type="submit" class="signupbtn">Sign Up</button>
       </div>
     </div>
+    <div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+      <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      </div>
   </form>
 </div>
 <script>
